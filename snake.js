@@ -8,8 +8,8 @@ var flag = false;
 
 var snake = new Snake();
 var food = new Food();
-var canDimX = Math.floor(((width*.87)/30))*30;
-var canDimY=Math.floor(((height*.8)/30))*30;
+var canDimX = Math.floor(((width*.95)/30))*30;
+var canDimY=Math.floor(((height*.95)/30))*30;
 var play = true;
 
 function setup() {
