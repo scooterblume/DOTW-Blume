@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<style type="text/css">
+	
+		html,body{
+			height: 99%;
+			width: 99%;
+		}
+
+		.wrap{
+			
+			width:200px;
+			height:200px;
+			position:fixed;
+			left:50%;
+			top:50%;
+			transform:translate(-50%,-100%);
+			text-align: center;
+			z-index: 100;
+			border-radius: 1em;
+			
+		}
+		.butt{
+			color: white;
+			width:200px;
+			transition: width 2s ,color .5s;
+		}
+
+		.butt:hover{
+			color: black;
+			background-color: green;
+			width:300px;
+			
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="wrap">
+	<div class = "butt" id = "snake">
+	<h1>Play Snake</h1>
+		
+	</div>
+
+	<div class = "butt" id = "pong">
+		<h1> Play Pong</h1>
+	</div>
+
+	<div class = "butt" id = "spect">
+		<h1>Spectate</h1>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="p5.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+<script type="text/javascript" src="nav.js"></script>
+</body>
+</html>

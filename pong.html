@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pong</title>
+	<style type="text/css">
+	
+		html,body{
+			height: 99%;
+			width: 99%;
+		}
+		.restart{
+			
+			width:100px;
+			height:75px;
+			background-color: red;
+			position:fixed;
+			left:50%;
+			top:50%;
+			transform:translate(-50%,-100%);
+			text-align: center;
+			z-index: 100;
+			border-radius: 1em;
+			transition: width 1s, height 1s;
+		}
+
+		.restart:hover{
+			width: 200px;
+			height: 100px;
+		}
+		.resText{
+			margin-top: 20%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="restart" id ="restart" style="visibility: hidden">
+		<h3 class='resText'>Restart</h3>
+	</div>
+
+<script type="text/javascript" src="p5.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+<script type="text/javascript" src="pong.js"></script>
+</body>
+</html>
